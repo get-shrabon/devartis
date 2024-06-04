@@ -1,9 +1,10 @@
+import HomeBanner from "./HomeBanner";
 
 
 const HomeBase = () => {
     return (
-        <div className="h-[80vh]">
-         
+        <div >
+         <HomeBanner/>
         </div>
     );
 };
